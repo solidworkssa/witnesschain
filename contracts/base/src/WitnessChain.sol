@@ -2,8 +2,11 @@
 pragma solidity ^0.8.20;
 
 /// @title WitnessChain Contract
+/// @author solidworkssa
 /// @notice Digital notary and witness verification.
 contract WitnessChain {
+    string public constant VERSION = "1.0.0";
+
 
     struct Record {
         bytes32 hash;
